@@ -8,7 +8,8 @@ body{background-color: orange;
     
     text-align: center;
     margin:auto;
-    margin-top:80px}
+    margin-top:80px;
+    border: 1px solid red;}
 h1,h2,h3{
     font-family: 'Roboto',sans-serif;
     font-weight: 100;
@@ -51,3 +52,14 @@ button:hover{
     bottom: 0;
     right: 0;}
    
+@media screen and (max-width: 750px){
+    .wrapper{display: flexbox;
+            flex-direction: column;
+            margin:auto;
+            width:80%;
+            padding:0.7em;
+            }
+   
+
+
+}
